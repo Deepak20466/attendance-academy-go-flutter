@@ -1,0 +1,37 @@
+# Secrets — never commit these
+backend/.env
+backend/secrets/
+**/*.env
+!.env.example
+*.pem
+*.key
+firebase-service-account*.json
+google-services.json
+GoogleService-Info.plist
+
+# Go
+backend/attendance-backend
+backend/*.exe
+backend/*.test
+
+# Flutter / Dart
+app/.dart_tool/
+app/.flutter-plugins
+app/.flutter-plugins-dependencies
+app/.packages
+app/build/
+app/android/.gradle/
+app/android/local.properties
+app/ios/Flutter/Flutter.podspec
+app/ios/Pods/
+app/*.iml
+app/.idea/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Claude Code local state
+.claude/

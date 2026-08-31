@@ -1,0 +1,2 @@
+DROP TABLE IF EXISTS leaves;
+DROP TABLE IF EXISTS substitutions;

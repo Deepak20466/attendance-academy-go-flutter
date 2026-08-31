@@ -1,0 +1,4 @@
+DROP TABLE IF EXISTS locations;
+DROP TABLE IF EXISTS coach_activities;
+DROP TABLE IF EXISTS coaches;
+DROP TABLE IF EXISTS activities;
